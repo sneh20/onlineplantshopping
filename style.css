@@ -1,0 +1,103 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+header
+{
+	background-image: url("header (2).jpg");
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+
+}
+.main-nav
+{
+float: right;
+list-style: none;
+margin-top:30px;
+}
+.main-nav li
+{
+	display: inline-block;
+}
+.main-nav li a
+{
+	color:#228b22;
+	text-decoration: none;
+	padding:5px 20px;
+	font-family: "Roboto", sans-serif;
+	font-size: 15px;
+}
+.main-nav li.active a
+{
+	border:1px solid green;
+	text-decoration-style:bold;
+
+}
+.main-nav li a:hover
+{
+	border: 1px solid green;
+}
+.logo img
+{
+width:170px;
+height: auto;
+float: left;
+position: absolute;
+left: 20px;
+top: 10px;
+
+}
+body
+{
+	font-family: monospace;
+}
+.row
+{
+	max-width: 1200px;
+	margin: auto;
+}
+.image
+{
+	position: absolute;
+	top: 70%;
+	left:78%;
+	transform: translate(-50%,-50%);
+	height: 350px;
+	padding-bottom: 27%;
+	overflow: hidden;
+
+
+}
+.p
+{
+	color:#228b22;
+	position: absolute;
+	top:40%;
+	left:60%;
+	font-size: 30px;
+	transform: translate(-0.01%,-70%);
+	font-family: Forte;
+	margin-left: 10px;
+	font-weight: 30;
+	letter-spacing: 1px;
+}
+.h
+{ 
+    margin-left: 10px;
+	padding: 0px;
+	position: absolute;
+	top: 10%;
+	color:#228b22;
+	font-size: 40px;
+	font-weight: 30;
+	letter-spacing: -1px;
+	transform: translate(-0.02%, -50%);
+	font-family: Forte;
+	
+}
+body
+{
+	background-color: lightgreen;
+}
